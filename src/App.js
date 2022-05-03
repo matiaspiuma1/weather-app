@@ -15,7 +15,6 @@ const App = () => {
 				.get(URL)
 				.then((res) => {
 					setData(res.data);
-					console.log(data);
 				})
 				.catch((error) => {
 					console.log(error);
